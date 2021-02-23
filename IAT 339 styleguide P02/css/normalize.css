@@ -1,0 +1,162 @@
+
+html{
+  background-color: rgb(21,21,76);
+  color: white;
+  font-family: sans-serif;
+  /*taken from IAT 339 slide and lab examples*/
+  font-size:20px;
+  font-weight:1px;
+  padding-left:2rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+
+}
+
+
+h1{
+  font-size:40px;
+}
+
+
+h2{
+  font-size:35px;
+  color: rgb(224,204,234);
+}
+
+
+h3{
+  font-size:28px;
+}
+
+
+h4{
+  font-size:20px;
+}
+
+
+p{
+  font-size: 15px;
+  max-width:70%;
+}
+
+body{
+
+
+}
+
+section{
+  padding-top:2rem;
+  padding-bottom:2rem;
+
+}
+
+div{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.button{
+  display: inline-block;
+  padding: 0.6rem;
+  color: black;
+  background-color: rgb(146,187,220);
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
+}
+
+.button:hover{
+  display: inline-block;
+  padding: 0.6rem;
+  color: black;
+  background-color: rgb(199,228,198);
+  text-decoration: none;
+  transition-property: background-color;
+}
+
+.href{
+  display: inline-block;
+  padding: 0.6rem;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  transition-property: background-color;
+}
+
+.href:hover{
+  display: inline-block;
+  padding: 0.6rem;
+  color: white;
+  background-color: rgb(155,188,255);
+  text-decoration: none;
+  transition-property: background-color;
+}
+
+code{
+  padding: 0.25rem;
+  color: grey;
+  background-color: rgb(37,38,91);
+}
+
+figure{
+  transform: scale(0.7);
+  max-width: 50px;
+}
+
+figure:hover{
+  transform: scale(0.9);
+  /* adapted from https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+}
+
+img:hover{
+  transform: scale(1.03);
+}
+
+.in-text-link{
+  display: inline-block;
+  padding: 0.2rem;
+  color: white
+
+}
+
+.in-text-link:hover{
+  display: inline-block;
+  padding: 0.2rem;
+  color: black;
+  background-color: rgb(155, 188, 199);
+}
+
+label{
+  color:white;
+}
+
+input{
+  border-color: white;
+  background-color:rgb(21,21,76);
+  border-width: 3px;
+  padding:0.5rem;
+}
+
+input:hover{
+  border-color:rgb(224,204,234);
+
+}
+
+
+.nav-main-item{ /*https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
+  text-decoration: none;
+  /*https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
+  color: white;
+  padding: 0.5rem;
+  background-color: rgb(21,21,76);
+}
+
+.nav-main-item:hover{ /*https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
+  text-decoration: none;
+    /*https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
+  color: white;
+  border-bottom: 2px solid;
+  border-color: rgb(197, 243, 255);
+  padding: 0.5rem;
+  background-color: rgb(21,21,76);
+}
