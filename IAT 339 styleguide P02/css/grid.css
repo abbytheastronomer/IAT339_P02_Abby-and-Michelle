@@ -21,13 +21,13 @@
 }
 
 .container .block p { /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-  display: flex;/* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
+  display: flex; /* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
   padding: 0.8rem;
 }
 
 
 .block img{ /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-  width:100%;
+  width:50%;
   padding-top:1rem; /*adapted from https://www.tutorialspoint.com/how-to-create-a-responsive-image-grid-with-html-and-css*/
 }
 
