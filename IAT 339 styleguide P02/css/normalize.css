@@ -1,7 +1,7 @@
 
 html{
-  background-color: rgb(21,21,76);
-  color: white;
+  background-color: #E8E3DC;
+  color: #0E0E0E; /* black */
   font-family: sans-serif;
   /*taken from IAT 339 slide and lab examples*/
   font-size:20px;
@@ -20,7 +20,7 @@ h1{
 
 h2{
   font-size:35px;
-  color: rgb(224,204,234);
+  color: #F0971F; /* accent orange */ 
 }
 
 
@@ -115,7 +115,7 @@ img:hover{
 .in-text-link{
   display: inline-block;
   padding: 0.2rem;
-  color: white
+    color: #0E0E0E; /* black */
 
 }
 
@@ -127,11 +127,12 @@ img:hover{
 }
 
 label{
-  color:white;
+  color: #0E0E0E; /* black */
 }
 
 input{
   border-color: white;
+    color: 
   background-color:rgb(21,21,76);
   border-width: 3px;
   padding:0.5rem;
@@ -141,6 +142,59 @@ input:hover{
   border-color:rgb(224,204,234);
 
 }
+
+/************************ COLOR SECTION ************************/
+.color{
+    display: grid;
+    grid-template-columns: 0.8fr 0.2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    border: 1px solid black;
+    padding: 5%;
+    margin: 3%;
+    vertical-align: text-middle;
+}
+
+.element-1 {
+    background-color: #7F58A5; /* medium purple */
+}
+
+.element-2 {
+    background-color: #C2B2D7; /* lavender */
+}
+
+.element-3 {
+    background-color: #1E1B37; /* space purple */
+}
+
+.element-4 {
+    background-color: #0E0E0E; /* black */
+}
+
+.element-5 {
+    background-color: #E8E3DC;; /* cream */
+}
+
+.element-6 {
+    background-color: #F0971F; /* accent orange */ 
+}
+
+.dark{
+    color: #0E0E0E;
+}
+
+.light{
+    color: #E8E3DC;
+}
+
+/* spacing for indented section */
+.indented-section {
+   margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/************************ //////////// ************************/
 
 
 .nav-main-item{ /*https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
