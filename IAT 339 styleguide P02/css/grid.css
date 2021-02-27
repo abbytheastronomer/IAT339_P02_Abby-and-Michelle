@@ -1,13 +1,12 @@
 
 .container{
-  display: flex; /* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
- /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-  justify-content: flex-start; /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+  display: flex; 
+  justify-content: flex-start;
   flex-direction:row;
 }
 
 
-.block{ /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.block{
   order:3;
   display: flex;
   flex-grow:1;
@@ -15,25 +14,29 @@
 }
 
 
-.container div{ /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.container div{
   border:1px;
   padding:15px;
 }
 
-.container .block p { /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
-  display: flex; /* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
+.container .block p {
+  display: flex;
   padding: 0.8rem;
 }
 
 
-.block img{ /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.block img{
   width:50%;
-  padding-top:1rem; /*adapted from https://www.tutorialspoint.com/how-to-create-a-responsive-image-grid-with-html-and-css*/
+  padding-top:1rem;
 }
 
-.container .block:nth-of-type(3){ /*retrieved from https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+.container .block:nth-of-type(3){
   max-width:50%;
   width:50%;
-  display:inline-block; /*adapted from https://www.tutorialspoint.com/how-to-create-a-responsive-image-grid-with-html-and-css*/
+  display:inline-block;
   float:left;
 }
+
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/*https://www.tutorialspoint.com/how-to-create-a-responsive-image-grid-with-html-and-css*/
+/* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
