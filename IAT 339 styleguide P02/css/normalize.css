@@ -172,7 +172,7 @@ input:hover{
 }
 
 .element-5 {
-    background-color: #E8E3DC;; /* cream */
+    background-color: #E8E3DC; /* cream */
 }
 
 .element-6 {
@@ -193,6 +193,22 @@ input:hover{
     padding-left: 5%;
     padding-right: 5%;
 }
+/************************ MICHELLE MOLECULES + TEMPLATES ************************/
+
+.course-template{
+    display: grid;
+    grid-template-columns: 0.33fr 0.33fr 0.33fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 2%;
+    margin: 1%;
+    vertical-align: text-middle;
+}
+
+.course-template .molecule {
+    background: pink;
+}
+
 
 /************************ //////////// ************************/
 
