@@ -20,7 +20,7 @@ h1{
 
 h2{
   font-size:35px;
-  color: #F0971F; /* accent orange */ 
+  color: #F0971F; /* accent orange */
 }
 
 
@@ -132,16 +132,16 @@ label{
 
 input{
   border-color: white;
-    color: 
+  color:
   background-color:rgb(21,21,76);
-  border-width: 3px;
-  padding:0.5rem;
+  border-width: 2px;
+  padding-left: 2rem;
 }
 
-input:hover{
+/* input:hover{
   border-color:rgb(224,204,234);
 
-}
+} */
 
 /************************ COLOR SECTION ************************/
 .color{
@@ -176,7 +176,7 @@ input:hover{
 }
 
 .element-6 {
-    background-color: #F0971F; /* accent orange */ 
+    background-color: #F0971F; /* accent orange */
 }
 
 .dark{
@@ -213,4 +213,15 @@ input:hover{
   border-color: rgb(197, 243, 255);
   padding: 0.5rem;
   background-color: rgb(21,21,76);
+}
+
+.button-update{
+  display: inline-block;
+  border-radius: 25px;
+  padding: 0.7rem;
+  color: black;
+  background-color: #C2B2D7;
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
 }
