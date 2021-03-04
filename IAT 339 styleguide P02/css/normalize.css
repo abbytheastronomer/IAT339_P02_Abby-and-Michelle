@@ -12,7 +12,6 @@ html{
 
 }
 
-
 h1{
   font-size:40px;
 }
@@ -20,7 +19,7 @@ h1{
 
 h2{
   font-size:35px;
-  color: #F0971F; /* accent orange */ 
+  color: #F0971F; /* accent orange */
 }
 
 
@@ -99,16 +98,15 @@ code{
 }
 
 figure{
-  transform: scale(0.7);
-  max-width: 50px;
+  max-width: 100%;
 }
 
 figure:hover{
-  transform: scale(0.9);
+  transform: scale(1.1);
   /* adapted from https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
 }
 
-img:hover{
+img{
   transform: scale(1.03);
 }
 
@@ -132,7 +130,7 @@ label{
 
 input{
   border-color: white;
-    color: 
+    color:
   background-color:rgb(21,21,76);
   border-width: 3px;
   padding:0.5rem;
@@ -176,7 +174,7 @@ input:hover{
 }
 
 .element-6 {
-    background-color: #F0971F; /* accent orange */ 
+    background-color: #F0971F; /* accent orange */
 }
 
 .dark{
@@ -230,3 +228,86 @@ input:hover{
   padding: 0.5rem;
   background-color: rgb(21,21,76);
 }
+
+
+.button-update{
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: black;
+  background-color: rgb(194, 178, 215);
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
+}
+
+.button-update:hover{
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: white;
+  background-color: rgb(127, 88, 165);
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
+}
+
+.sub-nav{
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  background-color: #E8E3DC;
+
+  } /* the mini navigation bar within the page*/
+
+.sub-nav:hover{
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid;
+  border-color: rgb(240, 151, 31);
+  padding: 0.5rem;
+  background-color: #E8E3DC;
+}
+
+
+
+/*********************** Abby Course template ***********************************/
+
+article {
+  display: grid;
+  grid-template-columns: 1;
+  grid-auto-rows: minmax(100px, auto);
+
+}
+
+.text{
+  padding: 0.5rem;
+  height: 420px;
+}
+
+.image{
+  padding-top: -10rem;
+  height: 420px;
+}
+
+@media screen and (min-width: 1025px) {
+  article {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .text:nth-of-type(3) {
+      grid-column: 2;
+      grid-row: 2;
+  }
+}
+
+/************************ Abby Register Template******************/
+.label{
+  padding-top:0.5rem;
+  padding bottom:0.5rem;
+}
+
+
+/*citations*/
+/* Scott S (2017),https://codepen.io/sassquad/pen/ooLEOa */
+/*W3schools(n.d), https://www.w3schools.com/howto/howto_css_round_buttons.asp*/
