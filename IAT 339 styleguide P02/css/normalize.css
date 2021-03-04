@@ -36,7 +36,7 @@ h4{
 
 p{
   font-size: 15px;
-  max-width:70%;
+    max-width:70%;
 }
 
 body{
@@ -195,6 +195,10 @@ input:hover{
 }
 /************************ MICHELLE MOLECULES + TEMPLATES ************************/
 
+.course-introduction{
+    padding: 3%;
+}
+
 .course-template{
     display: grid;
     grid-template-columns: 0.33fr 0.33fr 0.33fr;
@@ -205,10 +209,57 @@ input:hover{
     vertical-align: text-middle;
 }
 
-.course-template .molecule {
-    background: pink;
+.course-molecule {
+    background: #1E1B37; /* space purple */
+    border-color: 1px solid #F0971F; /* accent orange */ 
 }
 
+.course-organism {
+    padding: 4%;
+}
+
+.course-paragraph {
+    font-size: 1.2vw;
+    max-width: 100%
+}
+
+/* Subject Sections */
+.subject-template{
+    display: grid;
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 2%;
+    margin: 1%;
+    vertical-align: text-middle;
+}
+
+.image-right{
+   grid-template-columns: 0.4fr 0.6fr; 
+}
+
+.image-left{
+   grid-template-columns: 0.6fr 0.4fr; 
+}
+
+/* Images Responsive for Mobile */
+/* Source: https://www.thesitewizard.com/css/responsive-images-for-mobile-friendly-website.shtml */
+.img-mobile {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/************************ IMAGE BANNER ************************/
+.image-banner {
+    position: relative;
+}
+
+.banner-image {
+    min-width: 100%;
+    max-height: 20%;
+    opacity: 0.8;
+}
 
 /************************ //////////// ************************/
 
