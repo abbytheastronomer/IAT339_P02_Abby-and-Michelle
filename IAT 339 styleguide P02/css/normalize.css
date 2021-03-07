@@ -1,52 +1,44 @@
 
 html{
-  background-color: #E8E3DC;
-  color: #0E0E0E; /* black */
-  font-family: sans-serif;
-  /*taken from IAT 339 slide and lab examples*/
-  font-size:20px;
-  font-weight:1px;
-  padding-left:2rem;
-  padding-top:1rem;
-  padding-bottom:1rem;
-
+  background-color: #0E0E0E; /* black */
+  color: white; 
 }
 
 h1{
-  font-size:40px;
+    font-size:40px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
 h2{
-  font-size:35px;
-  color: #F0971F; /* accent orange */
+    font-size:35px;
+    color: #FFA360; /* accent orange */
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
 h3{
-  font-size:28px;
+    font-size:28px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
 h4{
-  font-size:20px;
+    font-size:20px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
 p{
-  font-size: 15px;
+    font-size: 15px;
     max-width:70%;
-}
-
-body{
-
+    font-family: 'Ubuntu Mono', monospace; 
 
 }
 
 section{
   padding-top:2rem;
   padding-bottom:2rem;
-
 }
 
 div{
@@ -110,18 +102,22 @@ img{
   transform: scale(1.03);
 }
 
+/* Links are blue when unvisited and orange when visited */
+/* TODO - links aren't starting as blue */
 .in-text-link{
   display: inline-block;
   padding: 0.2rem;
-    color: #0E0E0E; /* black */
+    color: #5798FF; /* blue */
+    font-family: 'Ubuntu Mono', monospace;
 
 }
 
-.in-text-link:hover{
-  display: inline-block;
-  padding: 0.2rem;
-  color: black;
-  background-color: rgb(155, 188, 199);
+.in-text-link:link{
+    color: #5798FF; /* blue */
+}
+
+.in-text-link:visited{
+    color: #FFA360; /* orange */
 }
 
 label{
@@ -153,12 +149,9 @@ input:hover{
     vertical-align: text-middle;
 }
 
-.element-1 {
-    background-color: #7F58A5; /* medium purple */
-}
 
 .element-2 {
-    background-color: #C2B2D7; /* lavender */
+    background-color: #5798FF /* blue */
 }
 
 .element-3 {
@@ -174,7 +167,7 @@ input:hover{
 }
 
 .element-6 {
-    background-color: #F0971F; /* accent orange */
+    background-color: #FFA360 ; /* accent orange */
 }
 
 .dark{
@@ -249,6 +242,38 @@ input:hover{
 }
 
 /************************ IMAGE BANNER ************************/
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+    
+    margin: 0;
+    padding: 0;
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 .image-banner {
     position: relative;
 }
@@ -261,23 +286,26 @@ input:hover{
 
 /************************ //////////// ************************/
 
-
-.nav-main-item{ /*https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
-  text-decoration: none;
-  /*https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
-  color: white;
-  padding: 0.5rem;
-  background-color: rgb(21,21,76);
+ /* SOURCE: https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
+/* SOURCE: https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
+.nav-main-item{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(21,21,76);
+    font-family: 'Ubuntu Mono', monospace;
+    
 }
 
-.nav-main-item:hover{ /*https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
-  text-decoration: none;
-    /*https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
-  color: white;
-  border-bottom: 2px solid;
-  border-color: rgb(197, 243, 255);
-  padding: 0.5rem;
-  background-color: rgb(21,21,76);
+/* SOURCE: https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
+/* SOURCE: https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
+.nav-main-item:hover{ 
+    text-decoration: none;
+    color: #5798FF; /* blue */
+    border-bottom: 2px solid;
+    border-color: rgb(197, 243, 255);
+    padding: 0.5rem;
+    background-color: rgb(21,21,76);
 }
 
 
