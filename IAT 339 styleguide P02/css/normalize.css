@@ -46,24 +46,6 @@ div{
   padding-bottom: 1rem;
 }
 
-.button{
-  display: inline-block;
-  padding: 0.6rem;
-  color: black;
-  background-color: rgb(146,187,220);
-  text-decoration: none;
-  transition-property: background-color;
-  border: white;
-}
-
-.button:hover{
-  display: inline-block;
-  padding: 0.6rem;
-  color: black;
-  background-color: rgb(199,228,198);
-  text-decoration: none;
-  transition-property: background-color;
-}
 
 .href{
   display: inline-block;
@@ -126,7 +108,6 @@ label{
 
 input{
   border-color: white;
-    color:
   background-color:rgb(21,21,76);
   border-width: 3px;
   padding:0.5rem;
@@ -151,7 +132,7 @@ input:hover{
 
 
 .element-2 {
-    background-color: #5798FF /* blue */
+    background-color: #5798FF; /* Dodger Blue */
 }
 
 .element-3 {
@@ -167,7 +148,7 @@ input:hover{
 }
 
 .element-6 {
-    background-color: #FFA360 ; /* accent orange */
+    background-color: #FFA360 ; /* Atomic Tangerine */
 }
 
 .dark{
@@ -294,11 +275,8 @@ body, html {
     padding: 0.5rem;
     background-color: rgb(21,21,76);
     font-family: 'Ubuntu Mono', monospace;
-    
 }
 
-/* SOURCE: https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
-/* SOURCE: https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
 .nav-main-item:hover{ 
     text-decoration: none;
     color: #5798FF; /* blue */
@@ -308,36 +286,14 @@ body, html {
     background-color: rgb(21,21,76);
 }
 
-
-.button-update{
-  display: inline-block;
-  border-radius: 12px;
-  padding: 0.6rem;
-  color: black;
-  background-color: rgb(194, 178, 215);
-  text-decoration: none;
-  transition-property: background-color;
-  border: white;
-}
-
-.button-update:hover{
-  display: inline-block;
-  border-radius: 12px;
-  padding: 0.6rem;
-  color: white;
-  background-color: rgb(127, 88, 165);
-  text-decoration: none;
-  transition-property: background-color;
-  border: white;
-}
-
+/* the mini navigation bar within the page*/
 .sub-nav{
-  text-decoration: none;
-  color: black;
-  padding: 0.5rem;
-  background-color: #E8E3DC;
-
-  } /* the mini navigation bar within the page*/
+    font-family: 'Ubuntu Mono', monospace;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    background-color: #E8E3DC;
+} 
 
 .sub-nav:hover{
   text-decoration: none;
@@ -347,6 +303,34 @@ body, html {
   padding: 0.5rem;
   background-color: #E8E3DC;
 }
+
+.button-round{
+    font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
+    color: #5798FF; /* Dodger Blue */
+}
+
+.button-round:hover{
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: white;
+  background-color: #5798FF; /* Dodger Blue */
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
+}
+
+
 
 
 
