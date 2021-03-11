@@ -31,7 +31,7 @@ h4{
 
 p{
     font-size: 15px;
-    max-width:70%;
+    /* max-width:70%; */
     font-family: 'Ubuntu Mono', monospace; 
 
 }
@@ -75,9 +75,9 @@ figure{
   max-width: 100%;
 }
 
+/* adapted from https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
 figure:hover{
   transform: scale(1.1);
-  /* adapted from https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
 }
 
 img{
@@ -267,7 +267,7 @@ body, html {
 
 /************************ //////////// ************************/
 
- /* SOURCE: https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
+/* SOURCE: https://www.w3schools.com/howto/howto_css_outline_buttons.asp*/
 /* SOURCE: https://www.geeksforgeeks.org/how-to-remove-underline-for-anchors-tag-using-css/#:~:text=The%20underline%20can%20be%20easily,the%20underline%20from%20anchor%20tag.*/
 .nav-main-item{
     text-decoration: none;

@@ -40,3 +40,111 @@
 /*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 /*https://www.tutorialspoint.com/how-to-create-a-responsive-image-grid-with-html-and-css*/
 /* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
+
+/* TODO - Need to Change Section Spacings for Media
+/** SECTION SPACINGS **/
+.section-introduction {
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid orange;
+    
+}
+
+.centered-heading {
+    text-align: center;
+}
+
+.centered-paragraph {
+    margin-left: 15%; 
+    margin-right: 15%;
+}
+
+.main-paragraph{
+    max-width: 70%;
+    padding-bottom: 2%;
+}
+
+
+.test-header{
+    width: 100%;
+    height: auto;
+}
+
+/** main spacing section for the entire website **/
+.main-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+
+/** Flexbox model for subjects listed on homepage **/
+/** my test 
+.subject-container {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.subject-item {
+    background-color: red;
+}
+**/
+
+.subject-container {
+    /* We first create a flex layout context */
+    display: flex;
+
+    /* Then we define the flow direction 
+     and if we allow the items to wrap 
+    * Remember this is the same as:
+    * flex-direction: row;
+    * flex-wrap: wrap;
+    */
+    flex-flow: row wrap;
+    align-items: stretch;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-between;
+
+    padding: 0;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    list-style: none;
+}
+
+/* Small screens */
+
+@media all and (max-width: 500px) {
+  .subject-container {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+.subject-item {
+    background: tomato;
+    padding: 5px;
+    height: 350px;
+    width: 350px;
+    margin-top: 10px;
+    color: white;
+    font-size: 3em;
+    text-align: left;
+}
+
+.image{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+}
+
+
