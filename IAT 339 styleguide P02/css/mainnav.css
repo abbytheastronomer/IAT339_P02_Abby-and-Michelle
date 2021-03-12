@@ -50,7 +50,7 @@ a {
 .header .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 10px 20px;
   text-decoration: none;
     color: #FFA360 ; /* Atomic Tangerine */
@@ -146,4 +146,44 @@ a {
   .header .menu-icon {
     display: none;
   }
+}
+
+/* the mini navigation bar within the page*/
+.sub-nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-nav-item{
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 0.6rem;
+    color: black;
+    text-decoration: none;
+    transition-property: color;
+    color: white;
+}
+
+.sub-nav-item:hover{
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 0.6rem;
+    color: #5798FF; /* Dodger Blue */
+    text-decoration: none;
+    transition-property: color;
+    transition-delay: 0.05s;
+}
+
+
+@media (max-width: 450px){
+    .sub-nav-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
 }

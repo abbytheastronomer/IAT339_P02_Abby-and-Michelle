@@ -1,4 +1,3 @@
-
 html{
   background-color: #0E0E0E; /* black */
   color: white; 
@@ -30,15 +29,10 @@ h4{
 
 
 p{
-    font-size: 15px;
+    font-size: 14px;
     /* max-width:70%; */
     font-family: 'Ubuntu Mono', monospace; 
 
-}
-
-section{
-  padding-top:2rem;
-  padding-bottom:2rem;
 }
 
 div{
@@ -116,6 +110,22 @@ input{
 input:hover{
   border-color:rgb(224,204,234);
 
+}
+
+/** CITATION: https://www.w3schools.com/howto/howto_css_bullet_color.asp **/
+.list-style {
+    list-style: none; /* Remove default bullets */
+    font-family: 'Ubuntu Mono', monospace;
+    line-height: 2rem;
+}
+
+.list-style li::before {
+  content: "\25AA";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #FFA360; /* orange */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 /************************ COLOR SECTION ************************/
@@ -286,23 +296,6 @@ body, html {
     background-color: rgb(21,21,76);
 }
 
-/* the mini navigation bar within the page*/
-.sub-nav{
-    font-family: 'Ubuntu Mono', monospace;
-    text-decoration: none;
-    color: black;
-    padding: 0.5rem;
-    background-color: #E8E3DC;
-} 
-
-.sub-nav:hover{
-  text-decoration: none;
-  color: black;
-  border-bottom: 2px solid;
-  border-color: rgb(240, 151, 31);
-  padding: 0.5rem;
-  background-color: #E8E3DC;
-}
 
 .button-round{
     font-weight: bold;
@@ -320,6 +313,7 @@ body, html {
 }
 
 .button-round:hover{
+    cursor: pointer;
   display: inline-block;
   border-radius: 12px;
   padding: 0.6rem;
