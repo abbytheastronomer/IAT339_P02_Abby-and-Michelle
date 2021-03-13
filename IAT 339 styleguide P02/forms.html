@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device=width, initial-scale=1">
+<head>
+    <title>forms</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+</head>
+
+  <body>
+
+<h2>Register</h2>
+<p>You are now registering Physics: Kinematics and Dynamics</p>
+
+<div class="container">
+<!--  <form action="/action_page.php">-->
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Grade</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Grade"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Cohort</label>
+      </div>
+      <div class="col-75" >
+        <select id="cohort" >
+          <option>please select a cohort</option>
+          <option>March 1 - May 1 (Tuesday & Thursday 15:30 - 17:30)</option>
+          <option>March 15 - May 15 (Monday & Wed 16:00 - 18:00)</option>
+          <option>May 1 - July 1 (Tuesday & Thursday 15:30 - 17:30)</option>
+          <option>May 1 - July 1 (Tuesday & Thursday 15:30 - 17:30)</option>
+          <option>Custom(enter in comment section of your availability, we will try to accomodate)</option>
+
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Additional Comment</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+<!--  </form>-->
+</div>
+
+  </body>
+</html>
