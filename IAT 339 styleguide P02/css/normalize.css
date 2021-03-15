@@ -299,29 +299,29 @@ body, html {
 
 .button-round{
     font-weight: bold;
-  font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
     text-transform: uppercase;
-  display: inline-block;
-  border-radius: 12px;
-  padding: 0.6rem;
-  color: black;
-  background-color: white;
-  text-decoration: none;
-  transition-property: background-color;
-  border: white;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 0.6rem;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition-property: background-color;
+    border: white;
     color: #5798FF; /* Dodger Blue */
 }
 
 .button-round:hover{
     cursor: pointer;
-  display: inline-block;
-  border-radius: 12px;
-  padding: 0.6rem;
-  color: white;
-  background-color: #5798FF; /* Dodger Blue */
-  text-decoration: none;
-  transition-property: background-color;
-  border: white;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 0.6rem;
+    color: white;
+    background-color: #5798FF; /* Dodger Blue */
+    text-decoration: none;
+    transition-property: background-color;
+    border: white;
 }
 
 
