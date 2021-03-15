@@ -1,6 +1,6 @@
 html{
   background-color: #0E0E0E; /* black */
-  color: white; 
+  color: white;
 }
 
 h1{
@@ -31,7 +31,7 @@ h4{
 p{
     font-size: 14px;
     /* max-width:70%; */
-    font-family: 'Ubuntu Mono', monospace; 
+    font-family: 'Ubuntu Mono', monospace;
 
 }
 
@@ -69,14 +69,13 @@ figure{
   max-width: 100%;
 }
 
-/* adapted from https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
-figure:hover{
+/* figure:hover{
   transform: scale(1.1);
 }
 
 img{
   transform: scale(1.03);
-}
+} */
 
 /* Links are blue when unvisited and orange when visited */
 /* TODO - links aren't starting as blue */
@@ -96,21 +95,21 @@ img{
     color: #FFA360; /* orange */
 }
 
-label{
+/* label{
   color: #0E0E0E; /* black */
-}
+/* } */
 
 input{
-  border-color: white;
-  background-color:rgb(21,21,76);
-  border-width: 3px;
+  /* border-color: white; */
+  background-color:rgb(255,255,255);
+  /* border-width: 3px; */
   padding:0.5rem;
 }
 
-input:hover{
+/* input:hover{
   border-color:rgb(224,204,234);
 
-}
+} */
 
 /** CITATION: https://www.w3schools.com/howto/howto_css_bullet_color.asp **/
 .list-style {
@@ -193,7 +192,7 @@ input:hover{
 
 .course-molecule {
     background: #1E1B37; /* space purple */
-    border-color: 1px solid #F0971F; /* accent orange */ 
+    border-color: 1px solid #F0971F; /* accent orange */
 }
 
 .course-organism {
@@ -208,7 +207,7 @@ input:hover{
 /* Subject Sections */
 .subject-template{
     display: grid;
-    
+
     grid-column-gap: 10px;
     grid-row-gap: 15px;
     padding: 2%;
@@ -217,11 +216,11 @@ input:hover{
 }
 
 .image-right{
-   grid-template-columns: 0.4fr 0.6fr; 
+   grid-template-columns: 0.4fr 0.6fr;
 }
 
 .image-left{
-   grid-template-columns: 0.6fr 0.4fr; 
+   grid-template-columns: 0.6fr 0.4fr;
 }
 
 /* Images Responsive for Mobile */
@@ -241,7 +240,7 @@ body, html {
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-    
+
     margin: 0;
     padding: 0;
 
@@ -287,7 +286,7 @@ body, html {
     font-family: 'Ubuntu Mono', monospace;
 }
 
-.nav-main-item:hover{ 
+.nav-main-item:hover{
     text-decoration: none;
     color: #5798FF; /* blue */
     border-bottom: 2px solid;
@@ -296,19 +295,39 @@ body, html {
     background-color: rgb(21,21,76);
 }
 
+<<<<<<< Updated upstream
+=======
+/* the mini navigation bar within the page*/
+.sub-nav{
+    font-family: 'Ubuntu Mono', monospace;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    background-color: rgb(255,255,255,255);
+}
+
+.sub-nav:hover{
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid;
+  border-color: rgb(240, 151, 31);
+  padding: 0.5rem;
+  background-color: rgb(255,255,255,255);
+}
+/* >>>>>>> Stashed changes */
 
 .button-round{
-    font-weight: bold;
-    font-family: 'Ubuntu Mono', monospace;
-    text-transform: uppercase;
-    display: inline-block;
-    border-radius: 12px;
-    padding: 0.6rem;
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    transition-property: background-color;
-    border: white;
+  font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  transition-property: background-color;
+  border: white;
     color: #5798FF; /* Dodger Blue */
 }
 
@@ -362,6 +381,10 @@ article {
 .label{
   padding-top:0.5rem;
   padding bottom:0.5rem;
+}
+
+.checked{
+  color: orange;
 }
 
 
