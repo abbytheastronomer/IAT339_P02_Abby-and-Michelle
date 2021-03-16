@@ -83,6 +83,8 @@
     grid-template-columns: 1fr 2fr;
 }
 
+
+
 /*********************************************/
 .quotation{
     font-size: 40px;
@@ -90,7 +92,7 @@
 }
 
 .q-right{
-    float: right;
+    text-align: right;
 }
 .review-item{
     background-color: green;
