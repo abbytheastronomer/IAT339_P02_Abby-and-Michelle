@@ -77,30 +77,47 @@
 /*********************************************/
 /* REVIEW TEMPLATE STUFF */
 .review-container{
-    background-color: red;
+    /** background-color: red; **/
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 2fr;
 }
 
+.review-image{
+    display: inline-block;
+    object-fit: contain;
+}
 
-
-/*********************************************/
 .quotation{
     font-size: 40px;
-    margin-top: 10%;
 }
 
 .q-right{
-    text-align: right;
+    float: right;
 }
 .review-item{
-    background-color: green;
+    /** background-color: green; **/
     margin: 15px;
 }
 
+.i1{
+    background-color: yellow;
+}
+
+.review-paragraph{
+    /**
+   font-style: italic;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: blue; **/
+}
+
+
+
+/*********************************************/
+
+
 .active, .dot:hover {
-    
   background-color: #5798FF; /* blue */;
 }
 

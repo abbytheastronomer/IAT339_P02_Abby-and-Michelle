@@ -23,7 +23,7 @@ h3{
 
 
 h4{
-    font-size:20px;
+    font-size:16px;
     font-family: 'Rajdhani', sans-serif;
 }
 
@@ -35,11 +35,13 @@ p{
 
 }
 
+
+/*
 div{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
+*/
 
 .href{
   display: inline-block;
@@ -115,7 +117,6 @@ input{
 .list-style {
     list-style: none; /* Remove default bullets */
     font-family: 'Ubuntu Mono', monospace;
-    line-height: 2rem;
 }
 
 .list-style li::before {
@@ -202,6 +203,10 @@ input{
 .course-paragraph {
     font-size: 1.2vw;
     max-width: 100%
+}
+
+course-button{
+    padding-top: 10%;
 }
 
 /* Subject Sections */
