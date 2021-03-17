@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  background-color: #FFA360;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  flex-wrap: wrap;
+}
+
+.foot-container{
+  background-color: #FFA360;
+  padding-bottom: 10rem;
+  margin: 0 auto;
+  justify-content:center;
+}
+
+.col{
+  display: flex;
+  bottom: 0;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 100px;
+}

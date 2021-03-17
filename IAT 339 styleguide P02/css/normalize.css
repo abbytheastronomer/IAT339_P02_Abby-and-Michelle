@@ -300,8 +300,8 @@ body, html {
     background-color: rgb(21,21,76);
 }
 
-<<<<<<< Updated upstream
-=======
+/* <<<<<<< Updated upstream
+======= */
 /* the mini navigation bar within the page*/
 .sub-nav{
     font-family: 'Ubuntu Mono', monospace;
@@ -390,6 +390,16 @@ article {
 
 .checked{
   color: orange;
+}
+
+h5{
+  font-size:14px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.list-style-foot {
+    list-style: none; /* Remove default bullets */
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 

@@ -2,12 +2,20 @@
   box-sizing: border-box;
 }
 
-h2, p{
+h2{
+  color: #FFA360; /* accent orange */
+  font-size:35px;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+
+p{
   color: white;
 }
 
 body{
-  background-color: #000000;  
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #000000;
 }
 
 input[type=text], select, textarea {
@@ -24,40 +32,48 @@ label {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: white;
+  color: #5798FF;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   cursor: pointer;
   float: right;
 }
 
 input[type=submit]:hover {
-  background-color: #FFA360;
+  color: white;
+  background-color: #5798FF;
 }
 
 .container {
   color: white;
   border-radius: 5px;
   background-color: #121212;
-  padding: 20px;
+  border: 2px solid #FFA360;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin: 50px;
+  margin-bottom: 20px;
 }
 
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 6px;
+  margin-top: 0.5px;
 }
 
 .col-75 {
   float: left;
   width: 75%;
-  margin-top: 6px;
+  margin-top: 0.5px;
 }
 
 /* Clear floats after the columns */
 .row:after {
+  /* margin: 1px; */
   content: "";
   display: table;
   clear: both;

@@ -9,67 +9,128 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/forms.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" >
+    <link href="css/footer.css" rel="stylesheet" >
 </head>
 
-  <body>
-    <h2>Register</h2>
-    <p>You are now registering Physics: Kinematics and Dynamics</p>
+<body>
+
+<h2>Register</h2>
+<p>You are now registering Physics: Kinematics and Dynamics</p>
 
 <div class="container">
 <!--  <form action="/action_page.php">-->
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" placeholder="Your name..">
-      </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Email</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
+    <div class="col-75">
+      <input type="text" placeholder="Your name..">
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Grade</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Grade"></textarea>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Email</label>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="country">Cohort</label>
-      </div>
-      <div class="col-75" >
-        <select id="cohort" >
-          <option>please select a cohort</option>
-          <option>March 1 - May 1 (Tuesday & Thursday 15:30 - 17:30)</option>
-          <option>March 15 - May 15 (Monday & Wed 16:00 - 18:00)</option>
-          <option>May 1 - July 1 (Tuesday & Thursday 15:30 - 17:30)</option>
-          <option>May 1 - July 1 (Tuesday & Thursday 15:30 - 17:30)</option>
-          <option>Custom(enter in comment section of your availability, we will try to accomodate)</option>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Grade</label>
+    </div>
+    <div class="col-75">
+      <select id="cohort" >
+        <option>please select your grade</option>
+        <option>Grade 1-3</option>
+        <option>Grade 4-6</option>
+        <option>Grade 7-9</option>
+        <option>Grade 10</option>
+        <option>Grade 11</option>
+        <option>Grade 12</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Cohort</label>
+    </div>
+    <div class="col-75" >
+      <select id="cohort" >
+        <option>please select a cohort</option>
+        <option>March 1 - May 1 (Tuesday & Thursday 15:30 - 17:30)</option>
+        <option>March 15 - May 15 (Monday & Wed 16:00 - 18:00)</option>
+        <option>May 1 - July 1 (Tuesday & Thursday 15:30 - 17:30)</option>
+        <option>May 1 - July 1 (Tuesday & Thursday 15:30 - 17:30)</option>
+        <option>Custom(enter in comment section of your availability, we will try to accomodate)</option>
 
-        </select>
-      </div>
+      </select>
     </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Additional Comment</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Region</label>
     </div>
-    <div class="row">
-      <input type="submit">
+    <div class="col-75" >
+      <select id="cohort" >
+        <option>please select your area of residence</option>
+        <option>Burnaby</option>
+        <option>Tri-cities</option>
+        <option>Vancouver</option>
+        <option>North & West Vancouver</option>
+        <option>Richmond</option>
+        <option>Surrey, Langley & White Rock</option>
+        <option>Pitt Meadows, Maple Ridge, Abbotsford</option>
+
+      </select>
     </div>
-<!--  </form>-->
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Additional Comment</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <!-- <button class="button-round" href="m_templates.html">register</button> -->
+    <input type="submit" value="Submit"> <!--(use original, just change css)-->
+  </div>
 </div>
+
+<footer>
+    <div class="foot-container">
+        <div class="col">
+          <div class="footer col-1">
+            <ul>
+              <h4>Girls Accelerate</h4>
+              <li><a href="">Email</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Connect to a Tutor</a></li>
+              <li><a href="">about</a></li>
+            </ul>
+         </div>
+         <div class="footer col-2">
+           <ul>
+              <h4>Contact Us</h4>
+              <li><a href="">Email</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Connect to a Tutor</a></li>
+              <li><a href="">about</a></li>
+            </ul>
+          </div>
+        <div class="footer-input">
+          <h4>Sign up for Newsletter:</h4>
+          <label>Email</label>
+          <input type="text" placeholder="email">
+          <input type="submit" value="Submit">
+
+        </div>
+       </div>
+    </div>
+      <p> created by Michelle Illing and Abby Choi</p>
+</footer>
 
   </body>
 </html>
