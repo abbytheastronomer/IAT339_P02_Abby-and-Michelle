@@ -55,20 +55,20 @@ input[type=submit]:hover {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
-  margin: 50px;
+  margin: 30px;
   margin-bottom: 20px;
 }
 
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 0.5px;
+  margin-top: 1px;
 }
 
 .col-75 {
   float: left;
   width: 75%;
-  margin-top: 0.5px;
+  margin-top: 1px;
 }
 
 /* Clear floats after the columns */
