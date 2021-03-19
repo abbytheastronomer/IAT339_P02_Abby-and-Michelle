@@ -1,7 +1,19 @@
-.course-page-review{
-  justify-content: center;
-  width: 600px;
-  height: 200px;
-  padding: 0.5rem;
-  border: 2px solid #FFA360;
+* {
+  box-sizing: border-box;
 }
+
+.course-page-review{
+  /* justify-content: center; */
+  /* width: 600px;
+  height: 200px; */
+  padding: 2rem;
+  margin-top: 20px;
+  border: 2px solid #FFA360;
+  /* box-sizing: border-box; */
+}
+
+.font-italic{
+  font-style: italic;
+}
+
+/* https://www.w3schools.com/css/css3_box-sizing.asp */

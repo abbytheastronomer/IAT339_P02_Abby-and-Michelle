@@ -1,29 +1,37 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  display: flex;
+.footer{
+  /* display: flex;
   background-color: #FFA360;
   bottom: 0;
   width: 100%;
-  height: 70px;
-  flex-wrap: wrap;
+  height: 70px; */
+  /* flex-wrap: wrap; */
+  /* background-color: blue; */
+  color: white;
+  display: inline-block;
 }
 
 .foot-container{
-  background-color: #FFA360;
-  padding-bottom: 7rem;
-  margin: 0 auto;
-  justify-content:center;
+   grid-template-columns: 1fr 1fr 1fr; /* 3 columns */
+   display: grid;
+   width: 100%;
+   bottom: 0;
+   background-color: #FFA360;
 }
 
-.col{
-  display: flex;
-  bottom: 0;
-  padding: 2rem;
-  padding-bottom: 2rem;
-  width: 100%;
-  height: 100px;
+.footer-course-page{
+  padding-top: 45rem;
+}
+
+
+@media (max-width: 600px) {
+    .foot-container {
+      grid-template-columns: repeat(1, 1fr);  /** this make each div-block wrap - only one column */
+    }
+}
+
+
+@media (min-width: 600px) {
+    .foot-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

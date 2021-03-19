@@ -32,6 +32,11 @@ label {
   display: inline-block;
 }
 
+.small-label {
+  padding: 4px 4px 10px 0;
+  display: inline-block;
+}
+
 input[type=submit] {
   background-color: white;
   color: #5798FF;

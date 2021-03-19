@@ -406,6 +406,35 @@ h5{
     font-family: 'Ubuntu Mono', monospace;
 }
 
+.button-round-2nd{
+  font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: black;
+  background-color: black;
+  text-decoration: none;
+  transition-property: background-color;
+  border: 0.5px solid white;
+  color: #5798FF; /* Dodger Blue */
+}
+
+.button-round-2nd:hover{
+  font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.6rem;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  transition-property: background-color;
+  border: 0.5px solid white;
+    color: #5798FF; /* Dodger Blue */
+}
 
 /*citations*/
 /* Scott S (2017),https://codepen.io/sassquad/pen/ooLEOa */
