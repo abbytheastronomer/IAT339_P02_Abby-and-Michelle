@@ -13,18 +13,22 @@ h2{
     font-size:35px;
     color: #FFA360; /* accent orange */
     font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
 h3{
     font-size:28px;
     font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 15px;
 }
 
 
 h4{
     font-size:16px;
     font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 10px;
 }
 
 
@@ -32,6 +36,7 @@ p{
     font-size: 14px;
     /* max-width:70%; */
     font-family: 'Ubuntu Mono', monospace;
+    margin-bottom: 15px;
 
 }
 
@@ -71,13 +76,7 @@ figure{
   max-width: 100%;
 }
 
-/* figure:hover{
-  transform: scale(1.1);
-}
 
-img{
-  transform: scale(1.03);
-} */
 
 /* Links are blue when unvisited and orange when visited */
 /* TODO - links aren't starting as blue */
@@ -97,9 +96,6 @@ img{
     color: #FFA360; /* orange */
 }
 
-/* label{
-  color: #0E0E0E; /* black */
-/* } */
 
 input{
   /* border-color: white; */
@@ -108,10 +104,6 @@ input{
   padding:0.5rem;
 }
 
-/* input:hover{
-  border-color:rgb(224,204,234);
-
-} */
 
 /** CITATION: https://www.w3schools.com/howto/howto_css_bullet_color.asp **/
 .list-style {
@@ -126,6 +118,18 @@ input{
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+ol{
+ font-family: 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+@media (max-width: 600px){
+    ol{
+        margin-left: 25px;
+    }
 }
 
 /************************ COLOR SECTION ************************/

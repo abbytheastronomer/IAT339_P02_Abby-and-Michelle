@@ -1,3 +1,7 @@
+section{
+    margin-bottom: 100px;
+}
+
 .container{
   display: flex; 
   justify-content: flex-start;
@@ -52,14 +56,29 @@
     
 }
 
-.centered-heading {
-    text-align: center;
+@media (max-width:600px){
+    .section-introduction{
+        margin: 3%;
+    }
 }
 
 .centered-paragraph {
     margin-left: 15%; 
     margin-right: 15%;
 }
+
+@media (max-width:600px){
+    .centered-paragraph{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+
+.centered-heading {
+    text-align: center;
+}
+
 
 .main-paragraph{
     max-width: 70%;
@@ -69,7 +88,12 @@
 
 .test-header{
     width: 100%;
-    height: auto;
+    height: 40%;
+    object-fit: cover;
+}
+
+.physics-header{
+    object-position: top;
 }
 
 /** main spacing section for the entire website **/
@@ -77,9 +101,9 @@
     /*background-color: red; */
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   .main-section{
-    margin: 0;
+    margin: 3%;
   }
 }
 
@@ -98,17 +122,72 @@
     }
 }
 
-/*************************** MY TESTS ******************************/
+/*********************************** Subject Section ********************************/ 
+
+
+.subject-paragraph{
+    margin-bottom: 5%;
+}
+
+
+
+@media (max-width: 600px) {
+  .subject-paragraphh{
+     width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .subject-paragraph{
+     width: 80%;
+    }
+}
+
+@media (min-width: 900px) {
+  .subject-paragraph{
+     width: 65%;
+    }
+}
+
+
+.subject-heading{
+    margin-left: 10%;
+}
+
+@media (max-width: 600px){
+    .subject-heading{
+        margin-left: 3%;
+    }
+}
+
+/************************ FIGURES ******************/
+
+.figure-h3{
+    margin-top: 15px;
+}
+.figures-image{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+}
+
+/*************************** COURSES ******************************/
 .course-container{
    display: grid;
     grid-gap: 15px;
-     
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%; 
 }
 
 @media (max-width: 600px) {
-    .course-container {
-        grid-template-columns: repeat(1, 1fr); 
-        margin: 2%;
+  .course-container{
+        grid-template-columns: 1fr;
+        margin: 3%; 
     }
 }
 
@@ -122,7 +201,6 @@
 @media (min-width: 900px) {
     .course-container{
         grid-template-columns: 1fr 1fr 1fr;
-
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5%;
@@ -131,7 +209,21 @@
 }
 
 .course-item{
-    background-color: red;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.course-image{
+    width: auto;
+    max-width: 100%;
+    min-height: 40%;
+    height: auto;
+}
+
+.course-info{
+    margin: 3%;
 }
 
 /*** FLEXIBLE GRID SOLUTION 2 ****/
@@ -142,6 +234,7 @@
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
+    background: red;
 }
 
 
@@ -183,7 +276,8 @@
 
 .test-img{
     object-fit: cover;
-    height: 100%;
+    text-align: center;
+    height: 80%;
     max-width: 100%;
     display: block;
     margin-top: 5%;

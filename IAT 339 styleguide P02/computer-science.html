@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <head>
+        <title>Lab 1 style guide</title>
+            <link href="css/normalize.css" rel="stylesheet">
+            <link href="css/main.css" rel="stylesheet" >
+            <link href="css/grid.css" rel="stylesheet">
+            <link href="css/mainnav.css" rel="stylesheet">
+            <link href="css/footer.css" rel="stylesheet">
+            <link href="css/imgHover.css" rel="stylesheet">
+    </head>
+      <!-- Navigation Bar for top -->
+    <header class="header">
+        <a href="" class="logo">Girls Accerelate</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+        <ul class="menu">
+            <li><a href="#typography"> About Us </a></li>
+            <li><a href="#intro"> Subjects</a></li>
+            <li><a href="#Button"> Courses</a></li>
+            <li><a href="#phys"> Register</a></li>
+        </ul>
+    </header>
+
+  <body>
+    <img class="test-header" src="img/progamming.jpg" alt="Complicated looking programming">
+      <section class="main-section">
+    <nav class="sub-nav-container">
+      <a class="sub-nav-item" href="#stem"> What is Computer Science?</a>
+      <a class="sub-nav-item" href="#phys">Important Figures</a>
+      <a class="sub-nav-item" href="#cmpt"> Courses</a>
+    </nav>
+    </section>
+
+       
+
+    <section class="main-section">
+        <h2> What is Computer Science?</h2>
+         <!-- SOURCE: https://kids.kiddle.co/Computer_science#:~:text=Computer%20science%20is%20the%20study,need%20special%20machines%2C%20called%20computers. -->
+        <p class="subject-paragraph">
+            Computer science is the study of how to manipulate, manage, transform and encode information. There are many different areas in computer science. Some of the areas consider problems in an abstract way. Some areas need special machines, called computers. A person who works with computers will often need mathematics, science, and logic in order to make and use computers.
+
+        </p>
+    </section>
+      
+    <section class="main-section">
+        <div class="figure-item"> 
+            <h2>Important Figures </h2>
+        </div>
+        
+        <!--
+        <div class="img-hover">
+            <img src="img/enscClass.jpg" class="class-img" alt="picture of electronics">
+            <div class="mid-banner">
+                <div class="mid-text">Engineering applys scientific principles to build machines and solve problems.</div>
+            </div>
+        </div>
+        -->
+        
+        <div class="figure-item">
+            <img class="figures-image" src="img/cs-grace-hopper.jpg" alt="Grace Hopper at work">
+        </div>
+        
+        <div class="figure-item"> 
+            <h3 class="figure-h3">Grace Hopper </h3>
+            <p class="subject-paragraph">
+            Grace Hopper was a brilliant mathematician and computer scientist who joined the United States Navy and became a rear admiral. She pioneered computer technology and was an accomplished computer programmer.
+            </p>
+            <h4> 5 Interesting Facts </h4>
+            <ol>
+                <li>She received a master’s degree (1930) and a Ph.D. (1934) in mathematics from Yale.</li>
+                <li>She believed that a programming language based on English was possible. Her linker converted English terms into machine code understood by computers.</li>
+                <li>She helped develop a compiler that was a precursor to the widely used COBOL (COmmon Business-Oriented Language).</li>
+                <li>When she retired as a rear admiral at age 79, Hopper was the oldest serving officer in the U.S. Armed Forces.</li>
+                <li>On November 22, 2016, she was posthumously awarded the Presidential Medal of Freedom by President Barack Obama.</li>
+            </ol>
+        </div>
+        
+    </section>  
+
+    <section>
+        <h2 class="subject-heading"> Courses</h2>
+
+        <article class="course-container">
+        <div class="course-item">
+            <img class="course-image" src="img/pythoncode.jpeg" alt="Computer screen with python code">
+            <div class="course-info">
+                <h4> Introduction to Python</h4>
+                <p>
+                    Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.
+                </p>
+                <button class="button-round course-button" href="m_templates.html">Learn more</button>
+            </div>
+            
+
+        </div>
+        <div class="course-item">
+            <img class="course-image" src="img/cmptClass.jpg" alt="Complicated Java code">
+            <div class="course-info">
+                <h4> Introduction to Java</h4>
+                <p>
+                    Java works on many different platforms and is one of the most popular programming language in the world and is simple to use. No prior programming experience is required. 
+                </p>
+                <button class="button-round course-button" href="m_templates.html">Learn more</button>
+            </div>
+           
+        </div>
+        <div class="course-item">
+            <img class="course-image" src="img/Computer_Science_Image.jpg" alt="Alt text">
+            <div class="course-info">
+                <h4> Introduction to Scripting</h4>
+                <p>
+                   Scripting language (also known as scripting) is a series of commands that are able to be executed without compiling. PHP, Perl, and Python are common examples of scripting languages. 
+                </p>
+                <button class="button-round course-button" href="m_templates.html">Learn more</button>
+            </div>
+        </div>
+       
+      </article>
+    </section>
+    <footer>
+        <div class="foot-container">
+            <div class="col">
+              <div class="footer col-1">
+                <ul>
+                  <h4>Girls Accelerate</h4>
+                  <li><a href="">Email</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Connect to a Tutor</a></li>
+                  <li><a href="">about</a></li>
+                </ul>
+             </div>
+             <div class="footer col-2">
+               <ul>
+                  <h4>Contact Us</h4>
+                  <li><a href="">Email</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Connect to a Tutor</a></li>
+                  <li><a href="">about</a></li>
+                </ul>
+              </div>
+            <div class="footer-input">
+              <h4>Sign up for Newsletter:</h4>
+              <label>Email</label>
+              <input>
+              <!-- <input type="submit" value="Submit"> -->
+              <button class="button-round" href="">Subscribe</button>
+
+            </div>
+           </div>
+        </div>
+          <p> created by Michelle Illing and Abby Choi</p>
+    </footer>
+    </body>
+</html>
