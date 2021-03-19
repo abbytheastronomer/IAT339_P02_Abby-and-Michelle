@@ -3,7 +3,7 @@ section{
 }
 
 .container{
-  display: flex; 
+  display: flex;
   justify-content: flex-start;
   flex-direction:row;
 }
@@ -53,7 +53,7 @@ section{
     margin-top: 5%;
     margin-bottom: 5%;
     border: 2px solid #FFA360; /* accent orange */
-    
+
 }
 
 @media (max-width:600px){
@@ -63,7 +63,7 @@ section{
 }
 
 .centered-paragraph {
-    margin-left: 15%; 
+    margin-left: 15%;
     margin-right: 15%;
 }
 
@@ -87,6 +87,7 @@ section{
 
 
 .test-header{
+    object-fit: cover;
     width: 100%;
     height: 40%;
     object-fit: cover;
@@ -94,6 +95,7 @@ section{
 
 .physics-header{
     object-position: top;
+    height: 537px;
 }
 
 /** main spacing section for the entire website **/
@@ -109,7 +111,7 @@ section{
 
 @media (min-width: 600px) {
   .main-section{
-      margin: 3%; 
+      margin: 3%;
     }
 }
 
@@ -118,11 +120,11 @@ section{
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5%;
-        margin-bottom: 5%;  
+        margin-bottom: 5%;
     }
 }
 
-/*********************************** Subject Section ********************************/ 
+/*********************************** Subject Section ********************************/
 
 
 .subject-paragraph{
@@ -178,23 +180,33 @@ section{
 .course-container{
    display: grid;
     grid-gap: 15px;
+<<<<<<< Updated upstream
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
-    margin-bottom: 5%; 
+    margin-bottom: 5%;
 }
 
 @media (max-width: 600px) {
   .course-container{
         grid-template-columns: 1fr;
-        margin: 3%; 
+        margin: 3%;
+=======
+
+}
+
+@media (max-width: 600px) {
+    .course-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2%;
+>>>>>>> Stashed changes
     }
 }
 
 @media (min-width: 600px) {
   .course-container{
         grid-template-columns: 1fr 1fr;
-        margin: 3%; 
+        margin: 3%;
     }
 }
 
@@ -204,7 +216,7 @@ section{
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5%;
-        margin-bottom: 5%;  
+        margin-bottom: 5%;
     }
 }
 
@@ -240,7 +252,7 @@ section{
 
 @media (max-width: 600px) {
     .container {
-        grid-template-columns: repeat(1, 1fr); 
+        grid-template-columns: repeat(1, 1fr);
         margin: 0;
     }
 }
@@ -248,7 +260,7 @@ section{
 @media (min-width: 600px) {
   .container{
         grid-template-columns: 1fr 1fr;
-        margin: 3%; 
+        margin: 3%;
     }
 }
 
@@ -257,7 +269,7 @@ section{
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 5%;
-        margin-bottom: 5%;  
+        margin-bottom: 5%;
     }
 }
 
