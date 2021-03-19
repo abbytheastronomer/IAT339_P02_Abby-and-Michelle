@@ -377,6 +377,11 @@ article {
   }
 }
 
+.forms-header{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 /************************ Abby Register Template******************/
 .label{
   padding-top:0.5rem;
