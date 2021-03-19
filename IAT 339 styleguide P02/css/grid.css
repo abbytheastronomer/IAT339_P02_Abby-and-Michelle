@@ -45,20 +45,24 @@ section{
 /* H. Serban (2021) IAT 339 Week 3 slide p. 24 */
 
 /* TODO - Need to Change Section Spacings for Media
-/** SECTION SPACINGS **/
+/** SECTION introduction with orange border **/
 .section-introduction {
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-top: 3%;
     border: 2px solid #FFA360; /* accent orange */
 
 }
 
 @media (max-width:600px){
     .section-introduction{
-        margin: 3%;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-bottom: 3%;
     }
 }
 
@@ -85,24 +89,25 @@ section{
     padding-bottom: 2%;
 }
 
-
+/*********************** BANNER IMAGES ********************/
+/** Banner Image that shows up on each page **/
 .test-header{
     object-fit: cover;
     width: 100%;
     height: 40%;
-    object-fit: cover;
 }
 
+/** positioning for image on top of physics page **/
 .physics-header{
     object-position: top;
     height: 537px;
 }
 
-/** main spacing section for the entire website **/
-.main-section{
-    /*background-color: red; */
+.home-header{
+    object-position: center;
 }
 
+/** main spacing section for the entire website **/
 @media all and (max-width: 600px) {
   .main-section{
     margin: 3%;
@@ -125,6 +130,47 @@ section{
 }
 
 /*********************************** Subject Section ********************************/
+/** Subject container on homepage **/
+.sub-container{
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    grid-row-gap: 40px;
+}
+
+@media all and (min-width: 600px){
+    .sub-container{
+        grid-template-columns: 0.05fr 0.95fr;
+    }
+}
+@media (max-width: 600px){
+    .sub-container{
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+}
+
+.home-item{
+    background-color:grey;
+}
+
+.purple{
+    background-color: #1E1B37;
+}
+
+.orange{
+    background-color: #FFA360;
+}
+
+.home-image{
+    width: auto;
+    max-height: 100%;
+    height: auto; 
+    object-fit: cover:
+}
+
+.home-subject-info{
+    margin: 3%;
+}
 
 
 .subject-paragraph{
@@ -167,6 +213,7 @@ section{
 .figure-h3{
     margin-top: 15px;
 }
+
 .figures-image{
     width: auto;
     max-width: 100%;
@@ -295,3 +342,5 @@ section{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+    
+
