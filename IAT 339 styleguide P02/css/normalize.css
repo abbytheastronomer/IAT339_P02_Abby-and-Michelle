@@ -41,13 +41,6 @@ p{
 }
 
 
-/*
-div{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-*/
-
 .href{
   display: inline-block;
   padding: 0.6rem;
@@ -75,8 +68,6 @@ code{
 figure{
   max-width: 100%;
 }
-
-
 
 /* Links are blue when unvisited and orange when visited */
 /* TODO - links aren't starting as blue */
